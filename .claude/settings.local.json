@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uipro init *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+.education__card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+}
+
+.education__main {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+}
+
+.education__icon {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education__school {
+  font-size: 22px;
+  color: #fff;
+}
+
+.education__degree {
+  margin-top: 6px;
+  color: var(--color-text-muted);
+  font-size: 15.5px;
+}
+
+.education__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--color-text-faint);
+}
+
+.education__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.education__honors {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
+}
+
+.education__honors-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.education__honors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .education__main {
+    flex-direction: column;
+  }
+}
